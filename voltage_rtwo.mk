@@ -13,8 +13,10 @@ $(call inherit-product, device/motorola/rtwo/device.mk)
 # Inherit some common Voltage stuff.
 $(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 
-# Bootanimation Resolution.
+# Voltage
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_FACE_UNLOCK_SUPPORTED := true
+EXTRA_UDFPS_ANIMATIONS := true
 
 PRODUCT_NAME := voltage_rtwo
 PRODUCT_DEVICE := rtwo

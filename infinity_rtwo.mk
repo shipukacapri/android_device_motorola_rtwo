@@ -10,10 +10,17 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from rtwo device
 $(call inherit-product, device/motorola/rtwo/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common InfinityX stuff.
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_rtwo
+# Maintainer Name
+INFINITY_MAINTAINER := Shipu
+# Whether the device supports Fingerprint On Display
+TARGET_HAS_UDFPS := true
+# Whether Including Google Apps
+WITH_GAPPS := false
+
+PRODUCT_NAME := infinity_rtwo
 PRODUCT_DEVICE := rtwo
 PRODUCT_MANUFACTURER := motorola
 PRODUCT_BRAND := motorola

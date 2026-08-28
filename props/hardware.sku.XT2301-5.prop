@@ -1,3 +1,7 @@
 ro.product.product.model=moto X40
 ro.vendor.product.display=moto X40
 ro.vendor.radio.imei.sv=1
+
+# InfinityX
+ro.product.marketname=Motorola X40
+ro.infinity.battery=4600 mAh

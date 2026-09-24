@@ -12,3 +12,8 @@ ro.camera.enableCamera1MaxZsl=1
 
 # Fingerprint
 ro.hardware.fingerprint=goodix
+
+# Infinity Specific Properties
+ro.infinity.soc=Snapdragon 8 Gen2 
+ro.infinity.camera=50MP + 50MP + 12MP + 60MP
+ro.infinity.display=1080x2400, AMOLED, 165Hz

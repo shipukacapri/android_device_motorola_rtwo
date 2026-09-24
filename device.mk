@@ -30,7 +30,8 @@ PRODUCT_PACKAGES += \
     LineageSystemUIDevice \
     ProductFrameworksResDevice \
     SettingsResDevice \
-    SystemUIResDevice
+    SystemUIResDevice \
+    InfinityUpdater
 
 # Audio
 PRODUCT_COPY_FILES += \

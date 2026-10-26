@@ -18,7 +18,7 @@ INFINITY_MAINTAINER := Shipu
 # Whether the device supports Fingerprint On Display
 TARGET_HAS_UDFPS := true
 # Whether Including Google Apps
-WITH_GAPPS := true
+WITH_GAPPS := false
 
 PRODUCT_NAME := infinity_rtwo
 PRODUCT_DEVICE := rtwo
